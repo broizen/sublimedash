@@ -1,4 +1,4 @@
-#[Sublime Dash](http://www.sublimedash.com)
+[Sublime Dash](http://www.sublimedash.com)
 ================================
 Check out the [current stable version!](http://www.sublimedash.com)
 ## How to create a submodule
