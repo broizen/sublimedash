@@ -1,8 +1,8 @@
 [Sublime Dash](http://www.sublimedash.com)
 ================================
 Check out the [current stable version!](http://www.sublimedash.com)
-## How to create a submodule
-New modules can be created using HTML, JavaScript, and PHP. Here is an example news module:
+## How to create a widget
+New widgets can be created using HTML, JavaScript, and PHP. Here is an example news widget:
 
 ###HTML (index.php)
 ```
@@ -60,7 +60,7 @@ foreach($x->query("//item") as $contextnode)
 }
 ```
 
-## Currently Requested modules
+## Currently Requested widgets
 1. Gmail Unread Messages
 2. Twitter - new tweets
 3. Facebook new notifications
