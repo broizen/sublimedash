@@ -4,14 +4,14 @@ Check out the [current stable version!](http://www.sublimedash.com)
 ## How to create a widget
 New widgets can be created using HTML, JavaScript, and PHP. Here is an example news widget:
 
-###HTML (index.php)
+### HTML (index.php)
 ```
 <div id="news" class="roundedBox drag">
 	<div id='newsTitle'>News</div>
 	<div id='newsStories'></div>
 </div>
 ```
-###JavaScript (script.js)
+### JavaScript (script.js)
 ``` 
 function getNews(){
   $.ajax({
@@ -31,7 +31,7 @@ $(document).ready(function() {
 });
 ```
 
-###PHP (getNews.php)
+### PHP (getNews.php)
 ``` 
 $url = "http://news.yahoo.com/rss/";
 $response = file_get_contents($url);
